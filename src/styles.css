@@ -308,12 +308,18 @@ h2 {
 }
 
 .win-card {
-  width: min(460px, 100%);
+  width: min(520px, 100%);
   border-radius: 8px;
   background: #ffffff;
-  padding: clamp(24px, 6vw, 42px);
+  padding: clamp(24px, 5vw, 42px);
   text-align: center;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.26);
+}
+
+.win-card h2 {
+  font-size: clamp(2rem, 7vw, 3rem);
+  line-height: 1.08;
+  overflow-wrap: anywhere;
 }
 
 .win-card p:not(.eyebrow) {
@@ -379,5 +385,9 @@ h2 {
 
   .progress-row {
     grid-template-columns: 1fr;
+  }
+
+  .win-card h2 {
+    font-size: clamp(1.8rem, 10vw, 2.4rem);
   }
 }
