@@ -28,11 +28,4 @@ npm run dev
 npm run build
 ```
 
-## Deploy on Vercel
 
-1. Push this project to GitHub.
-2. Import the GitHub repository in Vercel.
-3. Use the default Vite settings:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-4. Deploy and copy the live Vercel URL for submission.
